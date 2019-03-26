@@ -5,3 +5,12 @@ require('../scss/app.scss');
 
 library.add(fab);
 dom.watch();
+
+document.querySelectorAll('a.ext').forEach(el => {
+    el.addEventListener('click', event => {
+        if (event.target instanceof Element) {
+            window.open(event.target.getAttribute('href'), '_blank');
+        }
+        event.preventDefault();
+    })
+});
