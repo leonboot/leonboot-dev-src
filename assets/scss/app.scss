@@ -3,3 +3,25 @@
 main > .container { padding-top: 90px; }
 
 dt { text-align: right; }
+
+.skills {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.skills li {
+    flex-basis: 12.5%;
+    margin: 10px;
+    text-align: center;
+}
+
+.skills li img {
+    margin: 0 auto;
+    width: 100px;
+    max-height: 100px;
+    display: block;
+    clear: both;
+}

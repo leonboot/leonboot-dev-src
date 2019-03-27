@@ -14,3 +14,15 @@ document.querySelectorAll('a.ext').forEach(el => {
         event.preventDefault();
     })
 });
+
+document.querySelectorAll('.skills li').forEach(el => {
+    if (el instanceof Element) {
+        const skill = {
+            name: el.getAttribute('data-name'),
+            proficiency: parseFloat(el.getAttribute('data-proficiency'))
+        };
+        const logo = document.createElement('img');
+        logo.setAttribute('src', '/img/logos/'+skill.name+'.svg');
+        el.insertBefore(logo, el.firstChild);
+    }
+})
