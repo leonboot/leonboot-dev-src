@@ -28,7 +28,7 @@ Encore
     .cleanupOutputBeforeBuild()
     .enableSourceMaps(!Encore.isProduction())
     // enables hashed filenames (e.g. app.abc123.css)
-    .enableVersioning(Encore.isProduction())
+    .enableVersioning(false)
 
     // uncomment if you use TypeScript
     .enableTypeScriptLoader()
@@ -38,6 +38,14 @@ Encore
 
     // uncomment if you're having problems with a jQuery plugin
     .autoProvidejQuery()
+
+    .configureBabel(function(babelConfig) {
+        babelConfig.presets.forEach(function(preset) {
+            if (Array.isArray(preset) && preset.length === 2 && preset[0] === '@babel/preset-env') {
+                preset[1]['corejs'] = 2;
+            }
+        })
+    })
 ;
 
 module.exports = Encore.getWebpackConfig();
