@@ -13,7 +13,8 @@
     "typescript": "^3.3.4000"
   },
   "scripts": {
-    "test": "npm run unit",
-    "unit": "node_modules/.bin/tslint -c tslint.json assets/**/*.ts"
+    "test": "npm run unit && npm run build",
+    "unit": "node_modules/.bin/tslint -c tslint.json assets/**/*.ts",
+    "build": "node_modules/.bin/encore production"
   }
 }
