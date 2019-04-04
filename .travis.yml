@@ -10,6 +10,3 @@ deploy:
   on:
     branch: master
   local_dir: public
-  repo: leonboot-dev
-  target_branch: master
-  verbose: true
