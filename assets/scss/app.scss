@@ -1,8 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
 
-main > .container { padding-top: 90px; }
+main > .container { padding-top: 90px; margin-bottom: 1000px; }
 
 dt { text-align: right; }
+
+h2[id] {
+    padding-top: 90px; margin-top: -90px;
+}
+
+.container > section {
+    padding-bottom: 20px;
+}
 
 .skills {
     list-style: none;
@@ -13,15 +21,53 @@ dt { text-align: right; }
 }
 
 .skills li {
-    flex-basis: 12.5%;
+    flex-basis: 10%;
     margin: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.skills li > * {
+    display: block;
 }
 
 .skills li img {
-    margin: 0 auto;
-    width: 100px;
-    max-height: 100px;
-    display: block;
-    clear: both;
+    margin: 0 auto 1em auto;
+    width: 80%;
+}
+
+.rating {
+    position: relative;
+}
+
+.star-icon {
+    color: #ddd;
+    font-size: 1em;
+    position: relative;
+}
+
+.star-icon.full:before {
+    color: darken(gold, 5%);
+    content: '\2605';
+    position: absolute;
+    left: 0;
+}
+
+.star-icon.half:before {
+    color: darken(gold, 5%);
+    content: '\2605';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+}
+
+@-moz-document url-prefix() {
+  .star-icon {
+    font-size: 50px;
+    line-height: 34px;
+  }
 }
