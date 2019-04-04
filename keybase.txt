@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/leonb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://leonboot.dev
+  * I am leonb (https://keybase.io/leonb) on keybase.
+  * I have a public key with fingerprint EA99 8710 9BD1 98BA 7407  B7C5 C8AC D8F8 0560 F473
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101fd737def357c984d54379d502755923e58fe44959ba5814bac45b49172d31f420a",
+      "fingerprint": "ea9987109bd198ba7407b7c5c8acd8f80560f473",
+      "host": "keybase.io",
+      "key_id": "c8acd8f80560f473",
+      "kid": "0101fd737def357c984d54379d502755923e58fe44959ba5814bac45b49172d31f420a",
+      "uid": "46ee4b9eff2cba46e48779dbc2f67419",
+      "username": "leonb"
+    },
+    "merkle_root": {
+      "ctime": 1551944190,
+      "hash_meta": "883af88b105c27f1a786d9e3557d63dee75d046fcc4bf9534987dfd891c14282",
+      "seqno": 4892682
+    },
+    "revoke": {
+      "sig_ids": [
+        "6b197b0309dcb7f423209c8c9de74e14eb157ab612d8755b176fedc19fb868e90f"
+      ]
+    },
+    "service": {
+      "hostname": "leonboot.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1551944190,
+  "expire_in": 157680000,
+  "prev": "c08d32a018c8f8ea18855a7c50e243e9dccc4540c11ad7904c9c32a964e17805",
+  "seqno": 46,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMK6AnicrVNdbBVFGL0XaWsbr2BJEROC7SqXmBAyszuzM3OjVaMmRjH4TwIll/n5
+tl17e/e6uy0QeiPxLzHigwbEkJiIJQE0Jfhi1BJDKgQsvmhNQK0EkdrGmoghJUQJ
+OttowgOPzstmds53vnPOfHO0cEOuJd/5xrzK5jtPnsqfHE36c13bvry61VGR2eKU
+tjq9MPeBioEkLfeGxik5CCMcGOYxA4FHmRacGEo8JgxFLqNUuB5QHgAhggolKcdE
+SU2oIgIz13g4IC6SzkonCKvdENfisJpaWpBCcIaRUAYLriQjiCmmqeZSGx5wRH0U
+EObZwp4oySqsOCUTWBVG9p/dlOfkXQf/P+vun6MjPgBRAoLA1UraHeHMcintBj4j
+WGTABOKq7AOLrkBUVU59pdMHcW8FynEUpVmyOg2zc0wpFsRWIetOJj3lPkilLePc
+kwHnCiOqXRZgybhvBHiUMuN7BoBRg4gfaE1UIKhHbIQmMFxgjYnLXSsigeerkVMi
+XLg+d62CGAaiXsiaJ2G3zSxxSusdX2HBFPKQMFox69RzkdBcCwOMACagMGVS+dg1
+3GalMPMDMBqLQHGfg0CBs6GeNYsHQj1Hnl3Steat4VUGBqyiWhylkY4q9qQnTWtJ
+Kcsl3VLLoJtAlf8lKauwauyI2IoBiJMwqtqcLPI6kcHmWhhDOcwQlPkc2ZX1se3s
+QCBuPFcizLUdC5CYc0qlnSwELvHAGrbpUYI0xtIwgYgW2uKFb30zO0bXZOhbnbLb
+ctrkqjLtj8Gpjx7pmp/Lt+QaG+ZlbyfX0rzwvxfV+cWNuZGzK379Yc/B5ftvCfbt
+fXL8fGuxYernA4N/njk4f/zDlzbObp8+Xl3XtbfpoTUdH39zdmrJc4cbf992E+QL
+I0+3j46fXnHstt2N951/de3aWw99Tif+KPL2ocGhVwrvvz5xd+vgZPPu4UtNOxdd
+GZx87duHC00TM0fu6rj6zvpieOK77Q2zi1/UCxYsan9saeuxzw5/8mlbfrihvmPm
+wEf1nW2/ed3TS6dOrP669YnlIy+zi393LjuzcfXs/X89dWi458L0uStFeGFMPXtq
+x3tr8sXH45klu2aXPTCzYde7l8+99f0vizuaLt5TuHnsg9ybj7bVjn91etPt9z54
+x9uPXG53+Lp9zZcmL/z0zMKx/V0/Dh39B5TUf2M=
+=evHR
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/leonb
+
+==================================================================
