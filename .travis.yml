@@ -6,6 +6,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
+  fqdn: $GITHUB_PAGES_CUSTOM_DOMAIN
   keep_history: true
   on:
     branch: master
