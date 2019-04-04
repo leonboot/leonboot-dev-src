@@ -56,6 +56,6 @@ window.addEventListener("scroll", (event: Event) => {
         document.querySelectorAll("header nav .nav-link").forEach((el: HTMLElement) => {
             el.classList.remove("active");
         });
-        document.querySelector("header nav .nav-link[href='#'" + lastElement.id + "']").classList.add("active");
+        document.querySelector("header nav .nav-link[href='#" + lastElement.id + "']").classList.add("active");
     }
 });
