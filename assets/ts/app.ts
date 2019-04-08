@@ -35,7 +35,7 @@ document.querySelectorAll(".skills li").forEach((el: HTMLElement) => {
         const star = document.createElement("span");
         star.className = "star-icon";
         star.innerHTML = "&#9733;";
-        if (skill.proficiency > i) {
+        if (skill.proficiency >= i) {
             star.className += " full";
         } else if (skill.proficiency - i + 1 === 0.5) {
             star.className += " half";
