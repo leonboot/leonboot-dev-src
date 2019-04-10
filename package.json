@@ -15,6 +15,7 @@
   "scripts": {
     "test": "npm run unit && npm run build",
     "unit": "node_modules/.bin/tslint -c tslint.json assets/**/*.ts",
-    "build": "node_modules/.bin/encore production"
+    "build": "node_modules/.bin/encore production",
+    "serve": "node_modules/.bin/encore dev-server"
   }
 }
