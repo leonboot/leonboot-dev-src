@@ -25,3 +25,5 @@ jobs:
         build_dir: public
         fqdn: leonboot.dev
         jekyll: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
