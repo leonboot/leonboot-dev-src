@@ -2,7 +2,7 @@ name: Publish to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/app -w /app \
-        node:15 /bin/bash -c "npm ci && npx encore prod"
+        node:16-alpine /bin/ash -c "npm ci && npx encore prod"
     - name: Publish the generated assets to GitHub Pages
       uses: crazy-max/ghaction-github-pages@v2.2.0
       with:
