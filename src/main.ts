@@ -1,7 +1,7 @@
 import { dom, library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 
-require("../scss/app.scss");
+import "./style.scss";
 
 library.add(fab);
 dom.watch();
@@ -18,7 +18,7 @@ document.querySelectorAll("a.ext").forEach((el: HTMLElement) => {
 document.querySelectorAll(".skills li").forEach((el: HTMLElement) => {
     if (el.firstChild instanceof Text) {
         const titleNode = document.createElement("span");
-        titleNode.innerHTML = el.firstChild.textContent;
+        titleNode.innerHTML = el.firstChild.textContent?.toString() || '';
         el.removeChild(el.firstChild);
         el.appendChild(titleNode);
     }
