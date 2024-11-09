@@ -16,7 +16,7 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/app -w /app \
-        node:lts /bin/bash -c "npm install && npx encore prod"
+        node:22 /bin/bash -c "npm install && npx encore prod"
     - name: Publish the generated assets to GitHub Pages
       uses: crazy-max/ghaction-github-pages@v3
       with:
