@@ -27,7 +27,7 @@ document.querySelectorAll(".skills li").forEach((el: HTMLElement) => {
         proficiency: parseFloat(el.getAttribute("data-proficiency")),
     };
     const logo = document.createElement("img");
-    logo.setAttribute("src", "/img/logos/" + skill.name + ".svg");
+    logo.setAttribute("src", "img/logos/" + skill.name + ".svg");
     el.insertBefore(logo, el.firstChild);
     const rating = document.createElement("div");
     rating.className = "rating";
