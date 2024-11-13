@@ -12,25 +12,26 @@
 
   <body>
 
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#p_personalia">Curriculum Vitae</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link active" href="#p_personalia">Persoonlijke gegevens</a></li>
-            <li class="nav-item"><a class="nav-link" href="#p_education">Opleidingen</a></li>
-            <li class="nav-item"><a class="nav-link" href="#p_experience">Relevante werkervaring</a></li>
-            <li class="nav-item"><a class="nav-link" href="#p_skills">Kennis en vaardigheden</a></li>
-            <li class="nav-item"><a class="nav-link" href="#p_other">Overige bijzonderheden</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <main>
 
-    <main role="main" class="flex-shrink-0">
+      <header class="p-3 text-bg-dark sticky-top">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="#p_personalia" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              Curriculum Vitae
+            </a>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#p_personalia" class="nav-link px-2 text-secondary">Persoonlijke gegevens</a></li>
+              <li><a href="#p_education" class="nav-link px-2 text-secondary">Opleidingen</a></li>
+              <li><a href="#p_experience" class="nav-link px-2 text-secondary">Relevante werkervaring</a></li>
+              <li><a href="#p_skills" class="nav-link px-2 text-secondary">Kennis en vaardigheden</a></li>
+              <li><a href="#p_other" class="nav-link px-2 text-secondary">Overige bijzonderheden</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </header>
 
       <div class="container">
 
@@ -55,9 +56,9 @@
               <dt class="col-sm-3">Links</dt>
               <dd class="col-sm-9">
                 <ul class="list-inline">
-                  <li class="list-inline-item"><i class="fab fa-twitter"></i> <a class="ext" href="http://twitter.com/leonboot">@leonboot</a></li>
+                  <li class="list-inline-item"><i class="fab fa-twitter"></i> <a class="ext" href="https://x.com/leonboot">@leonboot</a></li>
                   <li class="list-inline-item"><i class="fab fa-github"></i> <a href="https://github.com/leonboot">leonboot</a></li>
-                  <li class="list-inline-item"><i class="fab fa-stack-overflow"></i> <a href="http://stackoverflow.com/users/2742375/leon-boot">Stack Overflow</a></li>
+                  <li class="list-inline-item"><i class="fab fa-stack-overflow"></i> <a href="https://stackoverflow.com/users/2742375/leon-boot">Stack Overflow</a></li>
                   <li class="list-inline-item"><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/leonboot/">LinkedIn</a></li>
                   <li class="list-inline-item"><i class="fab fa-keybase"></i> <a href="https://keybase.io/leonb">Keybase</a></li>
                 </ul>
@@ -139,8 +140,7 @@
                 <strong>Caveo Internet BV</strong> &ndash; <em>Webdeveloper</em><br>
                 De werkzaamheden bij Caveo vari&euml;ren van het ontwikkelen van Flash-sites voor de zusteronderneming RIGE
                 Entertainment tot het opzetten van complexe sites zoals webshops en administratiesystemen. Voor de webshops heb ik
-                zelf enkele koppelingen geschreven voor betalingen die verricht worden via <a class="ext" href="http://www.bibit.com/">Bibit</a>
-                en <a class="ext" href="http://www.rabobank.nl/bedrijven/producten/betalingsverkeer/via_internet/ideal">iDEAL</a>. Ook heb ik
+                zelf enkele koppelingen geschreven voor betalingen die verricht worden via Bibit en iDEAL. Ook heb ik
                 voor &eacute;&eacute;n van de webshops een koppeling geschreven met een boekhoud- en voorraadbeheersysteem. Hiermee
                 kunnen vanuit de administratie direct gegevens zoals voorraad en artikelprijs worden bijgewerkt.
                 Voor het bedrijf zelf heb ik diverse beheertools gemaakt voor het visueel in kaart brengen van de verschillende 19"
@@ -170,7 +170,7 @@
               <dt class="col-sm-3">2003 - heden</dt>
               <dd class="col-sm-9">
                 <strong>WipeOut! Webservices</strong> &ndash; <em>Mede-eigenaar</em><br>
-                Ik ben mede-eigenaar van het in 2003 opgerichte <a class="ext" href="http://www.wipeout.nu/">WipeOut! Webservices</a>. Deze
+                Ik ben mede-eigenaar van het in 2003 opgerichte <a class="ext" href="https://www.wipeout.nu/">WipeOut! Webservices</a>. Deze
                 onderneming heb ik destijds met mijn compagnon Dennis Lutz opgericht met webdevelopment als kernactiviteit. Naast het ontwikkelen
                 van websites en -applicaties is WipeOut! zich bezig gaan houden met in-house hosting van die webapplicaties. Door gebrek aan
                 voldoende tijd is de kernactiviteit uiteindelijk verschoven naar de hostingactiviteiten. Ook dit wordt slechts kleinschalig
@@ -188,25 +188,34 @@
             <ul class="skills">
               <li data-name="angular" data-proficiency="3.0">Angular</li>
               <li data-name="apache" data-proficiency="5.0">Apache</li>
+              <li data-name="bitbucket" data-proficiency="5.0">Bitbucket Data Center</li>
               <li data-name="css" data-proficiency="3.5">CSS</li>
               <li data-name="docker" data-proficiency="5.0">Docker</li>
               <li data-name="elasticsearch" data-proficiency="2.5">ElasticSearch</li>
               <li data-name="git" data-proficiency="4.5">Git</li>
+              <li data-name="golang" data-proficiency="1.0">Go</li>
+              <li data-name="google-cloud" data-proficiency="4.0">Google Cloud Platform</li>
               <li data-name="grafana" data-proficiency="4.0">Grafana</li>
+              <li data-name="helm" data-proficiency="4.5">Helm</li>
               <li data-name="html" data-proficiency="5.0">HTML</li>
               <li data-name="influxdb" data-proficiency="3.0">InfluxDB</li>
               <li data-name="js" data-proficiency="4.5">Node/Javascript</li>
+              <li data-name="jira" data-proficiency="4.5">Jira</li>
               <li data-name="jenkins" data-proficiency="4.5">Jenkins CI</li>
               <li data-name="kibana" data-proficiency="4.0">Kibana</li>
-              <li data-name="k8s" data-proficiency="4.0">Kubernetes</li>
+              <li data-name="k8s" data-proficiency="4.5">Kubernetes</li>
               <li data-name="macos" data-proficiency="5.0">macOS</li>
               <li data-name="mysql" data-proficiency="5.0">MySQL</li>
               <li data-name="nginx" data-proficiency="5.0">nginx</li>
               <li data-name="php" data-proficiency="5.0">PHP</li>
+              <li data-name="phpstorm" data-proficiency="5.0">PhpStorm</li>
               <li data-name="plesk" data-proficiency="4.5">Plesk</li>
+              <li data-name="puppet" data-proficiency="3.0">Puppet</li>
               <li data-name="python" data-proficiency="2.0">Python</li>
+              <li data-name="slack" data-proficiency="4.5">Slack</li>
               <li data-name="symfony" data-proficiency="5.0">Symfony</li>
               <li data-name="traefik-proxy" data-proficiency="4.5">Traefik Proxy</li>
+              <li data-name="terraform" data-proficiency="3.5">Terraform</li>
               <li data-name="typescript" data-proficiency="4.0">TypeScript</li>
               <li data-name="unix" data-proficiency="5.0">UNIX/Linux</li>
               <li data-name="windows" data-proficiency="4.0">Windows</li>
