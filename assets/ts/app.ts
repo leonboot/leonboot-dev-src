@@ -53,9 +53,12 @@ window.addEventListener("scroll", (event: Event) => {
         }
     });
     if (lastElement instanceof HTMLElement) {
-        document.querySelectorAll("header nav .nav-link").forEach((el: HTMLElement) => {
-            el.classList.remove("active");
+        document.querySelectorAll("header .nav-link").forEach((el: HTMLElement) => {
+            el.classList.remove("text-white");
+            el.classList.add("text-secondary");
         });
-        document.querySelector("header nav .nav-link[href='#" + lastElement.id + "']").classList.add("active");
+        let cl = document.querySelector("header .nav-link[href='#" + lastElement.id + "']").classList;
+        cl.remove("text-secondary");
+        cl.add("text-white");
     }
 });

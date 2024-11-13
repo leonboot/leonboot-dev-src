@@ -1,6 +1,24 @@
 @import "~bootstrap/scss/bootstrap";
 
-main > .container { padding-top: 90px; margin-bottom: 1000px; }
+@media print {
+
+    body {
+        font-size: 0.75rem;
+    }
+
+    header {
+        display: none;
+    }
+
+    .container {
+        padding: 0;
+        max-width: 100%;
+        margin-bottom: 0 !important;
+    }
+
+}
+
+main > .container { margin-bottom: 1000px; }
 
 dt { text-align: right; }
 
@@ -9,7 +27,7 @@ h2[id] {
 }
 
 .container > section {
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .skills {
