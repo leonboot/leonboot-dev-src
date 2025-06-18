@@ -6,7 +6,7 @@
     "bootstrap": "^5.3.3",
     "jquery": "^3.5.1",
     "sass": "^1.76.0",
-    "sass-loader": "^13.2.0",
+    "sass-loader": "^16.0.5",
     "ts-loader": "^9.2.6",
     "typescript": "^5.4.5"
   }
